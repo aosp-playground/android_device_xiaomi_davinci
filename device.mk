@@ -108,6 +108,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Translations
+PRODUCT_PACKAGES += \
+    MotorTranslationsOverlay
+
 # WiFi
 PRODUCT_PACKAGES += \
     DavinciWifiOverlay
